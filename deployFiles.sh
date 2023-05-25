@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Script taken from the BYU Web Programming course CS 260,
+# instructed by the excellent Professor Jensen.
+# https://github.com/webprogramming260/simon-html/blob/main/deployFiles.sh
+
 while getopts k:h:s: flag
 do
     case "${flag}" in
